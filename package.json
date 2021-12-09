@@ -1,6 +1,6 @@
 {
   "name": "react-native-bottom-animate-tabbar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "基于 @react-navigation/bottom-tabs 的自定义 tabBar 组件",
   "main": "index.ts",
   "scripts": {
