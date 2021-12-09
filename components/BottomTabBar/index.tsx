@@ -55,7 +55,7 @@ export default function BottomTabBar(props: BottomTabBarProps & { theme?: string
 
     return (
         <>
-            <View {...{ height, width}}>
+            <View {...{ height, width}} style={styles.container}>
                 <AnimatedSvg width={width * 2} {...{ height }} style={{ transform: [{ translateX }] }}>
                     <Path fill={backgroundColor} {...{d}} />
                 </AnimatedSvg>
@@ -67,3 +67,11 @@ export default function BottomTabBar(props: BottomTabBarProps & { theme?: string
         </>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        position: 'absolute',
+        bottom: 0,
+        zIndex: 99,
+    },
+})
