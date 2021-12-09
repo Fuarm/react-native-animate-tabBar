@@ -1,0 +1,22 @@
+{
+  "name": "@react-native/animate-tabbar",
+  "version": "1.0.0",
+  "description": "基于 @react-navigation/bottom-tabs 的自定义 tabBar 组件",
+  "main": "components/BottomTabBar/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GouFuJun/react-native-animate-tabBar.git"
+  },
+  "keywords": [
+    "react-navtive"
+  ],
+  "author": "GouFuJun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GouFuJun/react-native-animate-tabBar/issues"
+  },
+  "homepage": "https://github.com/GouFuJun/react-native-animate-tabBar#readme"
+}
