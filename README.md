@@ -9,7 +9,7 @@
 
 ### 安装
 ```
-yarn add @react-native/animate-tabbar
+yarn add react-native-bottom-animate-tabbar
 
 ```
 
@@ -17,7 +17,7 @@ yarn add @react-native/animate-tabbar
 ``` js
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import BottomTabBar from '@react-native/animate-tabbar';
+import BottomTabBar from 'react-native-bottom-animate-tabbar';
 
 const BottomTab = createBottomTabNavigator();
 
