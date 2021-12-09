@@ -54,8 +54,8 @@ export default function BottomTabBar(props: BottomTabBarProps & { theme?: string
     });
 
     return (
-        <>
-            <View {...{ height, width}} style={styles.container}>
+        <View style={styles.container}>
+            <View {...{ height, width}}>
                 <AnimatedSvg width={width * 2} {...{ height }} style={{ transform: [{ translateX }] }}>
                     <Path fill={backgroundColor} {...{d}} />
                 </AnimatedSvg>
@@ -64,7 +64,7 @@ export default function BottomTabBar(props: BottomTabBarProps & { theme?: string
                 </View>
             </View>
             <SafeAreaView style={{backgroundColor}} />
-        </>
+        </View>
     )
 }
 
